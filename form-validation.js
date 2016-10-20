@@ -28,6 +28,7 @@ else if(userEntered.includes(" ")){
     document.getElementById("usernameError").classList.add("shown-message");
 }
 else {
+  document.getElementById("usernameError").innerHTML="";
 document.getElementById("usernameGroup").classList.add("has-success");
 document.getElementById("usernameGroup").classList.remove("has-error");
 }
